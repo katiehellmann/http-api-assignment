@@ -2,7 +2,7 @@
   "name": "http-api-assignment",
   "version": "1.0.0",
   "description": "http api assignment -katie hellmann",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node ./src/server.js",
     "pretest": "eslint ./src --fix",
