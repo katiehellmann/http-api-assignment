@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3000;
+const PORT = process.env.PORT || process.env.NODE_PORT || 3000;
 
 /// a function that takes in the status, message, id, and content type
 /// returns the appropriate XML or JSON response
