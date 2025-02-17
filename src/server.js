@@ -51,7 +51,7 @@ const server = http.createServer((req, res) => {
   }
 
   // serve the CSS file
-  if (url === '/styles.css') {
+  if (url === '/style.css') {
     fs.readFile(path.join(`${__dirname}/../client/style.css`), (err, data) => {
       if (err) {
         res.writeHead(500, { 'Content-Type': 'text/plain' });
